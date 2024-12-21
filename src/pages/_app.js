@@ -7,13 +7,12 @@ import { Elements } from "@stripe/react-stripe-js";
 
 const Index = () => {
   const stripePromise = loadStripe(
-    "pk_test_51P4GVnIMd0c6ZBi6lIzaQVr4hr8g99M0m948PopN2u6Lp3C7umP1JygdYkCGQeG9NAIAfcrIgibOVcsYDuhAC7jE001mFAaqMj"
+    // "pk_test_51P4GVnIMd0c6ZBi6lIzaQVr4hr8g99M0m948PopkCGQeG9NAIAfcrIgibOVcsYDuhAC7jE001mFAaqMj" //wrong Key
   );
 
   const options = {
     // passing the client secret obtained from the server
-    clientSecret:
-      "sk_test_51P4GVnIMd0c6ZBi6uf5UUvWUXwUW9OvToCFjSIRcTeZY3dp2MfLKCcyvdidHpujDsmIRjLceyQoYT6DA2heLrKR000ueKyMRp0",
+    clientSecret:   //Wrong key
   };
 
   return (
